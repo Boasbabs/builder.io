@@ -1,32 +1,39 @@
 body {
-  font-family: 'Titillium Web', sans-serif; }
-
+  font-family: 'Titillium Web', sans-serif;
+}
+// The landing section of the page
 #landing {
   background-color: #34495e;
   color: #fff;
   text-align: center;
-  padding: 3em 0; }
-  #landing nav a {
+  padding: 3em 0;
+
+  nav a {
     color: #fff;
     text-decoration: none;
-    margin-left: 1.5em; }
-    #landing nav a.active {
+    margin-left: 1.5em;
+
+    &.active {
       font-weight: bold;
       border-bottom: 2px solid #fff;
-      padding-bottom: 0.5em; }
-  #landing h1 {
+      padding-bottom: 0.5em;
+    }
+  }
+  h1 {
     margin-top: 1.5em;
-    font-size: 4em; }
-  #landing p {
+    font-size: 4em;
+  }
+  p {
     margin: 1em 0;
-    font-size: 1.3em; }
-  #landing a.action {
+    font-size: 1.3em;
+  }
+   a.action {
     background-color: #4bd9dd;
     color: #fff;
     border-radius: 2px;
     width: 9em;
     text-transform: uppercase;
     font-size: 1.6em;
-    font-weight: bold; }
-
-/*# sourceMappingURL=style.css.map */
+    font-weight: bold;
+  }
+}
