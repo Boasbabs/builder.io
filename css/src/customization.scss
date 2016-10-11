@@ -1,0 +1,15 @@
+#customization {
+  text-align: center;
+  padding: 5em 0;
+  background-color: $light-bg-color;
+
+  i {
+    color: $primary-color;
+    font-size: 3em;
+  }
+
+  a {
+    color: $primary-color;
+    font-weight: bold;
+  }
+}
