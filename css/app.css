@@ -8,7 +8,7 @@ body {
   border-radius: 2px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1em; }
+  padding: 1em 3em; }
   .btn-solid:hover {
     color: #fff; }
 
@@ -17,8 +17,8 @@ body {
   border-radius: 2px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1em;
-  border: 1px solid #c0c4c7; }
+  padding: 1em 3em;
+  border: 1.5px solid #c0c4c7; }
   .btn-outline:hover {
     color: #c0c4c7; }
 
@@ -85,10 +85,8 @@ body {
   text-align: center;
   padding: 2em 0; }
   #intro .get-started {
-    background-color: #34495e;
-    padding: 1em 3em; }
+    background-color: #34495e; }
   #intro .try-demo {
-    padding: 1em 3em;
     margin-left: 1em; }
   #intro h2 {
     margin: 2em 0 0.7em; }
@@ -103,5 +101,21 @@ body {
   padding: 5em 0 14em; }
   #features a.btn-solid {
     margin-top: 1.2em; }
+
+#take-look {
+  background-color: #34495e;
+  text-align: center;
+  padding: 3em 0;
+  color: #fff; }
+  #take-look h2 {
+    text-transform: uppercase; }
+  #take-look p {
+    margin-bottom: 2em; }
+  #take-look a.btn-money {
+    background-color: #4bd9dd; }
+  #take-look a.btn-account {
+    color: #fff;
+    border-color: #fff;
+    margin-left: 1em; }
 
 /*# sourceMappingURL=app.css.map */
