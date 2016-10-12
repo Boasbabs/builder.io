@@ -210,4 +210,20 @@ body {
   #mountains .take-my-money a {
     background-color: #4bd9dd; }
 
+footer {
+  border-bottom: 100px solid #587ca0;
+  padding: 3em 0 3em 2em; }
+  footer a {
+    display: block;
+    margin: 0.7em 0;
+    font-weight: bold; }
+    footer a, footer a:hover {
+      color: #c0c4c7; }
+  footer .pencil-container {
+    text-align: center; }
+    footer .pencil-container i {
+      font-size: 3em;
+      transform: rotate(-45deg);
+      color: #dbdddf; }
+
 /*# sourceMappingURL=app.css.map */
