@@ -201,4 +201,13 @@ body {
       font-size: 1.3em;
       font-weight: bold; }
 
+#mountains img {
+  width: 100%; }
+#mountains .take-my-money {
+  background-color: #34495e;
+  padding: 3em 0;
+  text-align: center; }
+  #mountains .take-my-money a {
+    background-color: #4bd9dd; }
+
 /*# sourceMappingURL=app.css.map */
